@@ -8,4 +8,4 @@ WORKDIR /app
 EXPOSE ${FRONTEND_PORT}
 
 # Run the specified command within the container
-CMD ["npm", "start"]
+CMD ["npm", "run", "start-watch"]
